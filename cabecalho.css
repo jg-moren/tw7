@@ -5,28 +5,46 @@
     top: 0;
     width: 100%;
     height: 75px;
+
     display: flex;
     background: #000000;
 }
 
 .cabecalho .nome {
+
+
+    margin-left: 5vw;
+    width: 100px;
+
     font-weight: bold;
     font-size: 50px;
-    margin-left: 5vw;
     line-height: 75px;
     text-align: center;
     height: 100%;
 }
 
+
 .cabecalho .center {
     margin: auto;
-    padding-top: 25px;
-    height: 100%;
+    translate: -10px;
+    height: 100px;
     width: 100px;
 }
 
 .cabecalho .icons {
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 75px;
+    margin: auto 0;
+
+
+    margin-left: 2.5vw;
+    width: 50px;
+}
+
+.cabecalho .img-icons {
+    min-height: 30px;
+    min-width: 30px;
+    max-height: 40px;
+    max-width: 40px;
+
+    width: 5vw;
+    height: 5vw;
 }
