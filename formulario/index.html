@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>TW7</title>
+    <link rel="icon" type="image/png" href="../img/logo.png" />
+
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
+
+
+    <link rel='stylesheet' type='text/css' media='screen' href='../cabecalho.css'>
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='../main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='formulario.css'>
+
+
+</head>
+
+<body>
+    <div class="cabecalho">
+        <div class="nome">TW7</div>
+
+        <img class="center" height="100px" width="100px" src="../img/logo.png">
+
+
+        <a class="icons" href="https://www.instagram.com/tw7_fc/">
+            <img class="img-icons" height="50px" width="50px" src="../img/instagram-icon.png">
+        </a>
+
+        <a class="icons" href="">
+            <img class="img-icons" height="50px" width="50px" src="../img/facebook-icon.png">
+        </a>
+    </div>
+
+
+    <form class="formulario" action="/enviar-dados" method="post">
+        
+        <h1>Inscrever</h1>
+
+        <div class="form-campo">
+            <label for="nome">Nome Completo:</label><br/>
+            <input name="nome" id="nome" type="text"/>
+        </div>
+
+        <div class="form-campo">
+            <label for="idade">Idade:</label><br/>
+            <input name="idade" id="idade" type="text"/>
+        </div>
+
+        <div class="form-campo">
+            <label for="posicao">Posição que jogo:</label><br/>
+            <input name="posicao" id="posicao" type="text"/>
+        </div>
+
+        
+        <div class="form-campo">
+            <label for="outro_clube" >Já jogou por outro clube?</label><br/>
+                <input name="outro_clube" id="sim" value="sim" type="radio"/> <label for="sim">Sim</label>
+                <input name="outro_clube" id="nao" value="nao" type="radio"/> <label for="nao">Não</label>
+        </div>
+
+        <div class="form-campo">
+            <label for="telefone">Telefone:</label><br/>
+            <input name="telefone" id="telefone" type="text" placeholder="(99) 99999-9999"/>
+        </div>
+
+        <div class="form-campo">
+            <label for="email">Email:</label><br/>
+            <input name="email" id="email" type="text" placeholder="email@example.com"/>
+        </div>
+
+        <div class="form-campo">
+            <label for="atestado">Atestado de Atividade Fisica:</label><br/><br/>
+            <label for="atestado" class="file">
+                <img src="../img/file.png" width="40px"/>
+                Selecione um arquivo
+
+            </label>
+            <input name="atestado" id="atestado" type="file"/>
+        </div>
+        
+        <div class="form-campo">
+            <input name="enviar" type="submit" Value="Enviar"/>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

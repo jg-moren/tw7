@@ -1,0 +1,42 @@
+.formulario{
+    margin: auto;
+    background-color: #FFF;
+    width: 400px;
+    color: black;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 0px 50px 0px ;
+}
+.form-campo{
+    margin: 10px;
+}
+input[type=text]{
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 100px;
+    height: 40px;
+}
+input[type=submit]{
+    width: 100%;
+    border: none;
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 100px;
+    height: 40px;
+}
+input[type=file]{
+    display: none;
+}
+label{
+    font-size: 20px;
+    margin-right: 20%;
+}
+
+body{
+    background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0) ), url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: 0 0, 10%,10%;
+    background-size: 100%,500px;
+}
+

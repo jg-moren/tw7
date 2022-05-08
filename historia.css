@@ -1,0 +1,90 @@
+.historia{
+    background-color: #000;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url(img/titulos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.historia .texto-historia{
+    margin: 40px auto;
+    width: min(40vw, 500px);
+    font-size: 30px;
+
+}
+.historia .trofeus{
+    padding: 10px;
+
+}
+
+.historia .trofeu{
+    margin: 50px auto;
+    height: 7.5vw;
+    min-height: 100px;
+    width: 30vw;
+    min-width: 300px;
+    background-color: #FFF;
+    border-radius: 25px;
+}
+@media only screen and (max-width: 600px) {
+    .historia .texto-historia {
+        margin: auto;
+        padding: 10px;
+        width: 80vw;
+    }
+    
+}
+.historia .posicao{
+    height: 50%;
+    font-size: max(3vw,30px);
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.historia .titulo{
+    height: 50%;
+    font-size: max(1vw,15px);
+    color: #000;
+    text-align: center;
+}
+.historia .ano{
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    height: 30px;
+    width: 200px;
+    background-color: #FFF;
+    color: #000;
+}
+.historia .campeao{
+    background-image: linear-gradient(to bottom, #DBFF00, transparent);
+}
+.historia .trofeu .campeao{
+    background-color: #DBFF00;
+}
+
+.historia .vice-campeao{
+    background-image: linear-gradient(to bottom, #909090, transparent);
+}
+.historia .trofeu .vice-campeao{
+    background-color: #909090;
+}
+
+
+
+.metade{
+    width: 50vw;
+}
+@media only screen and (max-width: 600px) {
+    .metade {
+        width: 100vw;
+    }
+}
+
+
+
+
+
