@@ -15,8 +15,10 @@
         border: none;
         border-radius: 0;
         margin-top: -25px;
+        margin-bottom: 0;
+
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 25px;
     }
 }
 
@@ -24,13 +26,21 @@
     margin: 10px 30px;
 }
 
-input[type=text] {
+input[type=email],
+input[type=text],
+input[type=number] {
     width: 100%;
     border: 1px solid #000;
     border-radius: 100px;
     height: 40px;
     padding: 0 10px;
     font-size: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 input[type=submit] {
