@@ -1,22 +1,39 @@
-.formulario{
-    margin: auto;
+.formulario {
+    margin-left: auto;
+    margin-right: 10vw;
     background-color: #FFF;
-    width: 400px;
+    width: 500px;
     color: black;
     border: 1px solid #000;
     border-radius: 25px;
-    padding: 0px 50px 0px ;
+
 }
-.form-campo{
-    margin: 10px;
+
+@media only screen and (max-width: 600px) {
+    .formulario {
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        margin-top: -25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
-input[type=text]{
+
+.form-campo {
+    margin: 10px 30px;
+}
+
+input[type=text] {
     width: 100%;
     border: 1px solid #000;
     border-radius: 100px;
     height: 40px;
+    padding: 0 10px;
+    font-size: 20px;
 }
-input[type=submit]{
+
+input[type=submit] {
     width: 100%;
     border: none;
     background-color: #000;
@@ -25,18 +42,31 @@ input[type=submit]{
     border-radius: 100px;
     height: 40px;
 }
-input[type=file]{
+
+input[type=file] {
     display: none;
 }
-label{
+
+label {
     font-size: 20px;
+    width: 100%;
     margin-right: 20%;
 }
 
-body{
-    background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0) ), url("../img/logo.png");
-    background-repeat: no-repeat;
-    background-position: 0 0, 10%,10%;
-    background-size: 100%,500px;
+.center {
+    margin: auto 0;
 }
 
+.file {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin-top: -20px;
+}
+
+body {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: 0 0, 10%, 10%;
+    background-size: 100%, 500px;
+}
