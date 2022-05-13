@@ -76,6 +76,7 @@ label {
 
 body {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/logo.png");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 0 0, 10%, 10%;
     background-size: 100%, 500px;
